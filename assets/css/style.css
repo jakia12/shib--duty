@@ -1113,7 +1113,8 @@ textarea.form-control {
 }
 
 .btn-outline-primary-dark {
-    --gen-btn-color: #FBAE2E;
+    --gen-btn-color: white;
+    background: linear-gradient(to right, #7c9341, #FBAE2E);
     --gen-btn-border-color: #FBAE2E;
     --gen-btn-hover-color: #000;
     --gen-btn-hover-bg: #FBAE2E;
@@ -3118,7 +3119,7 @@ textarea.form-control {
 
 .bg-dark {
     --gen-bg-opacity: 1;
-    background-color: rgba(var(--gen-dark-rgb), var(--gen-bg-opacity)) !important;
+    /* background-color: rgba(var(--gen-dark-rgb), var(--gen-bg-opacity)) !important; */
 }
 
 .bg-white {
